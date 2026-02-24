@@ -1,0 +1,226 @@
+# ============================================
+# AI-Powered Code Review Platform - .gitignore
+# ============================================
+
+# ==================== DEPENDENCIES ====================
+# Node modules (Frontend & Backend)
+**/node_modules/
+node_modules/
+BACKEND/node_modules/
+Frontend/node_modules/
+
+# Package lock files (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ==================== ENVIRONMENT FILES ====================
+# Never commit API keys or sensitive data
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+**/. env
+BACKEND/.env
+Frontend/.env
+
+# ==================== BUILD OUTPUT ====================
+# Frontend (Vite) build output
+Frontend/dist/
+Frontend/build/
+dist/
+build/
+
+# Backend build output (if applicable)
+BACKEND/dist/
+BACKEND/build/
+
+# ==================== LOGS ====================
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ==================== TESTING ====================
+# Test coverage
+coverage/
+*.lcov
+.nyc_output
+
+# ==================== CACHING ====================
+# Vite cache
+.vite/
+Frontend/.vite/
+
+# ESLint cache
+.eslintcache
+
+# Parcel cache (if used)
+.cache/
+.parcel-cache/
+
+# Next.js cache (if applicable)
+.next/
+
+# Nuxt.js cache (if applicable)
+.nuxt/
+
+# ==================== IDE & EDITORS ====================
+# VS Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ IDEA / WebStorm
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ==================== OS SPECIFIC ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.exe
+nvm-setup.exe
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ==================== TEMPORARY FILES ====================
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+temp.js
+temp.md
+
+# ==================== PRODUCTION ARTIFACTS ====================
+# Compiled JavaScript (if TypeScript is used)
+*.js.map
+*.d.ts
+
+# Static files that are auto-generated
+.cache/
+
+# ==================== GOOGLE CLOUD / FIREBASE ====================
+# Google service account keys
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!jsconfig.json
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# ==================== MISCELLANEOUS ====================
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Optional stylelint cache
+.stylelintcache
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional webpack cache
+.webpack/
+
+# SvelteKit build / generate output
+.svelte-kit
+
+# ==================== DOCKER ====================
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# ==================== DATABASE ====================
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# ==================== SECURITY ====================
+# SSL certificates
+*.pem
+*.key
+*.cert
+
+# ==================== AI/ML ====================
+# Model files (if applicable)
+*.h5
+*.pkl
+*.pt
+*.pth
+
+# ==================== CUSTOM PROJECT FILES ====================
+# Ignore quota fix guide if it contains sensitive info
+# QUOTA_FIX_GUIDE.md
+
+# Keep README files
+!README.md
+!Frontend/README.md
