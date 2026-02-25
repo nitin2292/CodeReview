@@ -6,5 +6,7 @@
 };export  function Game(){
     return<h1> hello Nitin </h1>;
 }
-
+export  function Footabll(){
+    return<h1> hello game is on </h1>;
+}
 //export default Hello;
