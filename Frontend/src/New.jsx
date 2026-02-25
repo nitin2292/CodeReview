@@ -9,4 +9,5 @@
 export  function Footabll(){
     return<h1> hello game is on </h1>;
 }
+// Staging Area is an intermediate area where 
 //export default Hello;
